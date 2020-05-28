@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Barak Obama.jpg" />
+    <None Remove="Donald Trump.jpg" />
+    <None Remove="flag.jpg" />
+    <None Remove="Jo Jorgensen.jpg" />
+    <None Remove="Joe Biden.jpg" />
+    <None Remove="trump.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Barak Obama.jpg" />
+    <Resource Include="Donald Trump.jpg" />
+    <Resource Include="flag.jpg" />
+    <Resource Include="Jo Jorgensen.jpg" />
+    <Resource Include="Joe Biden.jpg" />
+    <Resource Include="trump.jpg" />
+  </ItemGroup>
+
+</Project>
